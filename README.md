@@ -19,13 +19,14 @@ Open <http://localhost:3000>. Run `npm run lint` and `npm run build` to check th
 
 - Welcome screen with a clear path into the free resume builder
 - Responsive resume editor with a live preview
-- Personal details, summary, work experience, education, skills, and project fields
-- Two resume styles: Professional and Minimal
-- A live ATS estimate using the requested section weights, keyword signals, and improvement suggestions
+- Separate prompts for students/first resumes and experienced professionals, with multiple work-history entries
+- Personal details, summary, education, skills, projects, achievements, and certifications
+- Three resume styles: Professional, Minimal, and Student
+- An explainable ATS-readiness checklist with local job-description keyword overlap and tailored suggestions
 - Multiple resume drafts with automatic browser-local saving; resume content is not sent to a server
 - A4 print layout; use **Export PDF** or **Download**, then choose **Save as PDF** in the browser print dialog
 
-The home page introduces ResumeForge; choose **Let’s build** to open the editor. Drafts are stored in the current browser on the current device. The workspace menu explains this storage boundary, **My resumes** switches between local drafts, and **Help & support** describes the available actions. The ATS score is an educational estimate, not a hiring guarantee. This demo does not include sign-in, cloud synchronization, cross-device backup, or account management.
+The home page introduces ResumeForge; choose **Let’s build** to open the editor. Choose a student or professional path to get relevant prompts, add multiple roles, and include projects, achievements, and certifications. Paste a job description in the ATS panel to see local keyword overlap; the app does not upload that text. The ATS score is an educational writing estimate, not a real ATS simulation or hiring guarantee. Drafts are stored in the current browser on the current device. The workspace menu explains this storage boundary, **My resumes** switches between local drafts, and **Help & support** describes the available actions. This demo does not include sign-in, cloud synchronization, cross-device backup, or account management.
 
 ## Publish publicly
 
